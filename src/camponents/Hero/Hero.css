@@ -1,0 +1,65 @@
+.Hero-section{
+    box-sizing: border-box;
+}
+
+.Hero-bg{
+    background-image: url(../../assets/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-pedding{
+    padding: 100px 0px;
+}
+
+.Hero-img img {
+    border-radius: 100px 0px 100px 0px !important;
+    z-index: 2 !important;
+    position: relative;
+}
+
+.Hero-img::after {
+    content: "";
+    z-index: 0;
+    width: 100%;
+    left: 20px;
+    top: 20px;
+    height: 100%;
+    border: 2px solid #000;
+    position: absolute;
+    border-radius: 100px 0 100px 0;
+}
+
+.Hero-img {
+    position: relative;
+}
+
+.Hero-content h1 {
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.Hero-content p {
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.Hero-content .hero-btn {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e60062;
+    padding: 12px 24px;
+    border-radius: 12px;
+    transition: 0.6s;
+    border: 2px solid #e60062;
+}
+
+.Hero-content .hero-btn:hover{
+    background-color: transparent;
+    color: #e60062;
+    border-color: #e60062;
+}

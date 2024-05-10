@@ -1,0 +1,35 @@
+.Heading {
+    font-size: 48px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.Heading .Heading-bold {
+    font-weight: bold;
+}
+
+.View-btn {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+    padding: 12px 20px;
+    background-color: #E60065;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.nphead{
+    margin-bottom: 20px;
+}
+
+.space-adjust{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.New-Products{
+    margin-bottom: 100px;
+}
