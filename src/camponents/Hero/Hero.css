@@ -1,15 +1,15 @@
-.Hero-section{
+.Hero-section {
     box-sizing: border-box;
 }
 
-.Hero-bg{
+.Hero-bg {
     background-image: url(../../assets/images/bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.hero-pedding{
+.hero-pedding {
     padding: 100px 0px;
 }
 
@@ -50,16 +50,16 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
-    background-color: #e60062;
+    background-color: transparent;
+    color: #e60062;
     padding: 12px 24px;
     border-radius: 12px;
     transition: 0.6s;
     border: 2px solid #e60062;
 }
 
-.Hero-content .hero-btn:hover{
-    background-color: transparent;
-    color: #e60062;
+.Hero-content .hero-btn:hover {
+    color: #fff;
+    background-color: #e60062;
     border-color: #e60062;
 }

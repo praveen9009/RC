@@ -1,0 +1,126 @@
+.product {
+    position: relative;
+}
+
+.prdt-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.prdt-title h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.prdt-price {
+    display: flex;
+    align-items: center;
+}
+
+.prdt-price h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.prdt-crunt-price h2.crnt-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.prdt-crunt-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h2.prvs-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #383838;
+    text-decoration: line-through;
+}
+
+.prdt-lable {
+    position: absolute;
+    top: 25px;
+    color: #fff;
+    right: 0;
+    padding: 4px 10px;
+    background-color: #e60065;
+    border-radius: 6px 0 0 6px;
+}
+
+.prdt-lable-new h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.prdt-action-icon {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000bd;
+    padding: 10px 6px;
+    border-radius: 0 0 20px;
+}
+
+.product:hover .prdt-action-icon {
+    display: block;
+}
+
+.wish-action {
+    margin-bottom: 16px;
+}
+
+.prdt-wish-btn,
+.prdt-cart-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+.prdt-wish-btn:hover,
+.prdt-cart-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* .prdt-wish-btn:hover,
+.prdt-cart-btn:hover {
+    animation: zoom-in-wish 2s ease-out infinite;
+}
+
+@keyframes zoom-in-wish {
+    0% {
+        width: 0px;
+        height: 0px;
+        border: #ffffff;
+    }
+
+    50% {
+        width: 26px;
+        height: 26px;
+        border: 1px solid #ffffff93;
+    }
+
+    100% {
+        width: 34px;
+        height: 34px;
+        border: 1px solid #ffffff00;
+    }
+} */
+
+.product{
+    padding-bottom: 50px;
+}

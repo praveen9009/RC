@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import Rajclassy from '../../assets/images/Rajclassy logo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { useLocation } from "react-router-dom";
 
@@ -16,10 +16,27 @@ const Header = () => {
     const { pathname } = location;
 
     const splitLocation = pathname.split("/");
+    // This function activates the active class on the current page
+    const
+    [scroll, setScroll] = React.useState(false);
+    const handleScroll = () => {
+        if (window.scrollY > 500) {
+            setScroll(true);
+        }
+        else {
+            setScroll(false);
+        }
+    }
+    React.useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        }
+    }, [])
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" fixed="top" className='header-dec'>
+            <Navbar collapseOnSelect expand="lg" fixed="top" className={scroll ? "header-dec bg-active" : "header-dec"}>
                 <Container className='header-items'>
                     <Link to={'/'}>
                         <Navbar.Brand >

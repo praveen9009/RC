@@ -86,3 +86,7 @@
     color: #000;
     border-bottom-color: #E60065 !important;
 }
+
+.header-dec.bg-active {
+    background: #fff;
+}
