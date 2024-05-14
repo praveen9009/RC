@@ -7,6 +7,7 @@ import Category from './camponents/Category/Category.js';
 import NewProducts from './camponents/NewProducts/NewProducts.js';
 import SpacialProduct from './camponents/SpacialProduct/SpacialProduct.js';
 import BestProduct from './camponents/BestProducts/BestProducts.js';
+import InstaSec from './camponents/Instasec/Instasec.js'
 import Footer from './camponents/Footer/Footer.js';
 
 
@@ -20,6 +21,7 @@ function Home() {
                 <NewProducts />
                 <SpacialProduct />
                 <BestProduct />
+                <InstaSec />
                 <Brands />
                 <Footer />
             </div>

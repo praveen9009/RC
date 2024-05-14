@@ -1,14 +1,14 @@
 .footer-section {
-    background-color: #2c2c2c;
+    background-color: #000;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 80px 0 30px;
     width: 100%;
+    padding: 60px 0 0;
     background-size: cover
 }
 
 .footer-section {
-    margin-top: 120px
+    margin-top: 100px;
 }
 
 .footer-logo img {
@@ -38,7 +38,7 @@ ul.footer-social-links li.footer-social-links-item {
     margin: 0 20px 0 0
 }
 
-ul.footer-social-links li.footer-social-links-item a.footer-social-links-item-btn {
+ul.footer-social-links li.footer-social-links-item .footer-social-links-item-btn {
     color: #fff;
     display: flex;
     background: #2c2c2c;
@@ -80,9 +80,9 @@ ul.footer-social-links li.footer-social-links-item a.footer-social-links-item-bt
 }
 
 .footer-copy-right {
-    padding: 24px 0;
+    padding: 6px 0;
     color: #fff;
-    font-size: 18px
+    font-size: 16px
 }
 
 .custom-line {
