@@ -5,6 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Contact from './Contact';
+import Login from './Login/Login';
+import Createaccount from './Login/Createaccount';
+import Forgotpassword from './Login/Forgotpassword';
+import Dashboard from './dashboard/dashboard';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +17,10 @@ root.render(
     <Switch>
       <Route exact path='/' component={Home} />
       <Route exact path='/contact' component={Contact} />
+      <Route exact path='/login' component={Login} />
+      <Route exact path='/createaccount' component={Createaccount} />
+      <Route exact path='/forgotpassword' component={Forgotpassword} />
+      <Route exact path='/dashboard' component={Dashboard} />
       <Route path='*' component={() => <h1>404 Not Found</h1>} />
     </Switch>
   </Router>

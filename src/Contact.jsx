@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/css/style.css';
 import { Link } from 'react-router-dom';
-import Header from './camponents/Header/Header.js';
+import Header from './camponents/Header/Header.jsx';
 
 function Home() {
   return (

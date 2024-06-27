@@ -1,7 +1,7 @@
 
 import React from "react";
 import '../Category/Category.css';
-import CategoryCard from '../CategoryCard/CategoryCard.js';
+import CategoryCard from '../CategoryCard/CategoryCard.jsx';
 import Cate1 from '../../assets/images/Cate1.png';
 import Cate2 from '../../assets/images/Cate2.png';
 import Cate3 from '../../assets/images/Cate3.png';

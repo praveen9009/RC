@@ -4,7 +4,8 @@
     background-position: center;
     width: 100%;
     padding: 60px 0 0;
-    background-size: cover
+    background-size: cover;
+    font-family: "Roboto", sans-serif !important;
 }
 
 .footer-section {
